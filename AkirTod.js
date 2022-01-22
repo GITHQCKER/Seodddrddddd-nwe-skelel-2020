@@ -64,12 +64,12 @@ let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let antilink = JSON.parse(fs.readFileSync('./database/group/antilink.json'))
 tamnel = fs.readFileSync('./image/kirtod.jpeg')
 banChats = true
-ownerName = '❤️ Wily Kun ❤️'
-ownerNumber = ["6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net"]
-fkeOwner = '6289667923162'
-botName = "©Hentongers-Bot"
-pulsa = '6289667923162'
-gopay = '6289667923162'
+ownerName = 'IMASH(ZED)'
+ownerNumber = ["94771323434@s.whatsapp.net","94771323434@s.whatsapp.net","94771323434@s.whatsapp.net","94771323434@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net","6289667923162@s.whatsapp.net"]
+fkeOwner = '94771323434'
+botName = "©ZED BOT〽"
+pulsa = '94771323434'
+gopay = '94771323434'
 ovo = '6289667923162'
 harga1bulan = 'HARGA : 1 BULAN 15K'
 harga2bulan = 'HARGA : 2 BULAN 20K'
@@ -148,22 +148,22 @@ sound36 = fs.readFileSync('./media/sound2/sound11.mp3')
 //━━━━━━━━━━━━━━━//━━━━━━━━━━━━━━━//━━━━━━\\
 var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
           if(time2 < "23:59:00"){
-          var ucapanWaktu = '🌌 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦 🌌'
+          var ucapanWaktu = '🌌ගු.න මචන්🌌'
 }
           if(time2 < "19:00:00"){
-          var ucapanWaktu = '🌆 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐏𝐞𝐭𝐚𝐧𝐠 🌆'
+          var ucapanWaktu = '🌆 ගු.න මචන් 🌆'
 }
           if(time2 < "18:00:00"){
-          var ucapanWaktu = '🌇 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐒𝐨𝐫𝐞 🌇'
+          var ucapanWaktu = '🌇 සු.ස මචන් 🌇'
 }
           if(time2 < "15:00:00"){
-          var ucapanWaktu = '🏞 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐒𝐢𝐚𝐧𝐠 🏞'
+          var ucapanWaktu = '🏞 සු.ස මචන්🏞'
 }
           if(time2 < "11:00:00"){
-          var ucapanWaktu = '🌅 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐏𝐚𝐠𝐢 🌅'
+          var ucapanWaktu = '🌅 ගු.ම මචන් 🌅'
 }
           if(time2 < "05:00:00"){
-          var ucapanWaktu = '🏙 𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦 🏙'
+          var ucapanWaktu = '🏙 ගු.ම මචන් 🏙'
 }
 var getCmd = (id) => {
     let position = null
@@ -236,15 +236,15 @@ selectedButton = (type == 'buttonsResponseMessage') ? kir.message.buttonsRespons
 responseButton = (type == 'listResponseMessage') ? kir.message.listResponseMessage.title : ''
 
 mess = {
-			wait: '```[ ⏳ ] SABAR KAK SEDANG DI PROSES 😆...```',
-			success: '```[ ☑️ ]``` BERHASIL KAK 🤣',
+			wait: '```WAIT〽...```',
+			success: '```[SUCCESSFULL]〽',
 			error: {
-				stick: 'Gagal Convert Gambar To Sticker...Coba Lagi !',
-				Iv: 'Linknya Error Tod !'
+				stick: 'Convert To Sticker...!',
+				Iv: ' Error!'
 			},
 			only: {
-				admin: 'Kusus Admin Tod !',
-				group: 'Khusus Group Tod !'
+				admin: 'CONGRATULATIONS !',
+				group: 'CONGRATULATIONS !'
 			}
 		}
 	
@@ -253,7 +253,7 @@ mess = {
         }
     
     var listmsg = (from, title, desc, list) => { 
-            let po = KirBotz.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "👤 SELECT 👤","footerText": "_*©HentongersBot*_","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = KirBotz.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "CHOOSE〽","footerText": "_*©ZED BOT〽*_","listType": "SELECT ONE","sections": list}}, {})
             return KirBotz.relayWAMessage(po, {waitForAck: true})
         }
 
@@ -262,11 +262,11 @@ mess = {
         }
      
     var replly = (teks) => {
-			KirBotz.sendMessage(from, teks, text, { thumbnail: tamnel, sendEphemeral: true, quoted: fakeTroli, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `❤️ HENTONGERS-BOT ❤️`,body:"SELECT",previewType:"PHOTO",thumbnail:tamnel,sourceUrl:`https://youtu.be/vs8LVRscNQ4`}}})
+			KirBotz.sendMessage(from, teks, text, { thumbnail: tamnel, sendEphemeral: true, quoted: fakeTroli, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ZED BOT〽`,body:"SELECT",previewType:"PHOTO",thumbnail:tamnel,sourceUrl:`https://www.facebook.com/nidusha.fernando`}}})
 		}
 		
 	var katalog = (teks) => {
-             res = KirBotz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 999999999, "message": teks, "footerText": "©HentongersBot", "jpegThumbnail": fs.readFileSync('./image/kirtod.jpeg'), "surface": 'CATALOG' }}, {quoted:kir})
+             res = KirBotz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 999999999, "message": teks, "footerText": "©ZED BOT〽", "jpegThumbnail": fs.readFileSync('./image/kirtod.jpeg'), "surface": 'CATALOG' }}, {quoted:kir})
              KirBotz.relayWAMessage(res)
         }
         
@@ -276,13 +276,13 @@ KirBotz.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-"title": `Hentongers-Bot`,
-"body": `𝑩𝒚 Hentongers`,
+"title": `ZED BOT〽`,
+"body": `BY ZED〽`,
 "mediaType": "10",
-"mediaUrl": `https://www.youtube.com/channel/UCn-kMZEYRnNNCkMzQBzMYKw`,
-"thumbnailUrl": "https://k.top4top.io/p_20779elwn0.jpg",
+"mediaUrl": `https://www.facebook.com/nidusha.fernando`,
+"thumbnailUrl": "https://c.top4top.io/p_2213w058t1.png",
 "thumbnail": tamnel,
-"sourceUrl": `https://www.youtube.com/channel/UCn-kMZEYRnNNCkMzQBzMYKw`,
+"sourceUrl": `https://www.facebook.com/nidusha.fernando`,
 },mentionedJid:[sender]}, quoted : fakeTroli})
 };
 
@@ -352,15 +352,13 @@ options
 );
 };
 
-var daftar1 = `Hai kak *${pushname}*
+var daftar1 = `*HELLOW🙊♥ *${pushname}*
 ${ucapanWaktu}
-Sebelum Mengakses 🤖 Bot 🤖
-😎 DAFTAR Terlebih Dahulu Ya
-Sebelum DAFTAR 😎 🤖 Bot 🤖 Minta
-Bantu Subrek Channel ❤️ Owner ❤️
-*https://www.youtube.com/channel/UCn-kMZEYRnNNCkMzQBzMYKw*`
-var daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
-var daftar3 = [{buttonId: `.verify`,buttonText: {displayText: `😸 DAFTAR DULU KAK 😸`,},type: 1,}]
+HE HE HE FOLLOW ON IMASH🙊
+*https://www.facebook.com/nidusha.fernando*
+YOU CAN VERIFYD THIS BOT`
+var daftar2 = '```VERIFY〽```'
+var daftar3 = [{buttonId: `.verify`,buttonText: {displayText: `VERIFYD〽`,},type: 1,}]
 
 var createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -416,18 +414,18 @@ var fakevo = {
   message: {
     imageMessage: {
       mimetype: 'image/jpeg',
-      caption: '❤️ HENTONGERS-BOT ❤️',
+      caption: 'ZED BOT〽',
       jpegThumbnail: fs.readFileSync('./image/kirtod.jpeg'),
       viewOnce: true
     }
   }
 }
 let fakeLink = {
-             "title": `Hai Kak ${pushname}`,
-             "body": `🤖 Hentongers-Bot 🤖`,
+             "title": `HELLOW🙊♥ ${pushname}`,
+             "body": `ZED BOT〽`,
              "previewType": "VIDIO",
              "thumbnail": fs.readFileSync('./image/kirtod.jpeg'),
-             "mediaUrl": "https://www.youtube.com/channel/UCn-kMZEYRnNNCkMzQBzMYKw"
+             "mediaUrl": "https://www.facebook.com/nidusha.fernando"
         }        
 var sendStickerUrl = async(to, url) => {
 			console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:mm:ss'), "gold"), color('Downloading sticker...'))
@@ -446,7 +444,7 @@ var sendStickerUrl = async(to, url) => {
 					exec(`webpmux -set exif ./src/sticker/data.exif ${asw} -o ${asw}`, async (error) => {
 					let media = fs.readFileSync(asw)
 					KirBotz.sendMessage(to, media, sticker)
-					console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:mm:ss'), "gold"), color('Succes send sticker...'))
+					console.log(color(time, 'magenta'), color(moment.tz('Asia/Jakarta').format('HH:mm:ss'), "gold"), color('Successful sticker...'))
 					});
 					});
 				});
@@ -544,7 +542,7 @@ KirBotz.sendMessage(from, hasil, type, options).catch(e => {
 fetch(link).then((hasil) => {
 KirBotz.sendMessage(from, hasil, type, options).catch(e => {
 KirBotz.sendMessage(from, { url : link }, type, options).catch(e => {
-reply('_[ ! ] Error Gagal Dalam Mendownload Dan Mengirim Media_')
+reply('_[ ! ] Error Downloading this Media_')
 console.log(e)
 })
 })
@@ -596,7 +594,7 @@ if (isGroup && !kir.key.fromMe && isAntiLink) {
 if (budy.includes("://chat.whatsapp.com/")) {
 if (isGroupAdmins) return reply('Your is Admin!! Bot not Found kick You :D')
 console.log(color('[KICK]', 'green'), color('Link Terdeteksi', 'yellow'))
-reply(`「 *LINK GRUP TERDETEKSI* 」\n\n_Link Group terdeteksi!!_\n_Kamu akan di kick dari Group!!_`)
+reply(`「 *LINK BAN* 」\n\n_Group Link Not Allowed this Group !!_\n_ kick Group!!_`)
 setTimeout(() => {
 KirBotz.groupRemove(from, [sender])
 }, 2000);
@@ -605,7 +603,7 @@ KirBotz.groupRemove(from, [sender])
 
 switch(is) {
 case 'bot':
-reply('iya ada apa Kak? ☺️')
+reply('ow bota innawa kiyananna thiyena de kaiyapan ☺️')
 break
 case 'p':
 case 'pe':
@@ -614,10 +612,10 @@ case 'bng':
 case 'bg':
 case 'kir':
 case 'akira':
-reply(`Gak Sopan Lu Salam Dulu Kek`)
+reply(`NON`)
 break
 case 'assalamualaikum':
-reply(`Waalaikumsalam Kak ☺️ Ada Yang Bisa 🤖 Bot 🤖 Bantu`)
+reply(`WELLCOME🙊♥`)
 break
 case 'kontol': 
 case 'bacot':
@@ -683,7 +681,7 @@ switch (command) {
 case 'rules':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
 thu = await KirBotz.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
-menuh = `${ucapanWaktu} 𝐊𝐚𝐤 @${sender.split("@")[0]}
+menuh = `${ucapanWaktu}♥ @${sender.split("@")[0]}
 𒍮 𝙍𝙪𝙡𝙚𝙨 𝘽𝙤𝙩𝙯
 ❒͡ 1. 𝑱𝒂𝒏𝒈𝒂𝒏 𝑺𝒑𝒂𝒎 𝑩𝒐𝒕𝒛
       *sᴀɴᴋsɪ : ᴡᴀʀɴ/sᴏғᴛ ʙʟᴏᴄᴋ*
