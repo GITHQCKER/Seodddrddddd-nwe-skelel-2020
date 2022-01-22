@@ -740,9 +740,6 @@ GROUP : *https://chat.whatsapp.com/HEP90W2NX9Y4YISOzCu7AQ*
 }}, MessageType.buttonsMessage,{ quoted: fakeTroli,thumbnail: fs.readFileSync('./image/kirtod.jpeg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${ucapanWaktu}`,body:`${pushname}`,mediaType:"2",thumbnail:fs.readFileSync('./image/kirtod.jpeg'),mediaUrl:`https://www.facebook.com/nidusha.fernando`}}})
 sendVn(akirasound)
 break
-case 'script':
-case 'sc':`https://www.facebook.com/nidusha.fernando`)
-break
 case 'allmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
  wibu = `
