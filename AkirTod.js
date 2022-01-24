@@ -1636,7 +1636,6 @@ case 'play':
              sendButloc(from,monospace(capti),'',`KirBotz×`,[{buttonId: `${prefix}ytmp3 ${yut.all[0].url}`, buttonText: {displayText: '🎵 AUDIO 🎵'}, type: 1},
 {buttonId: `${prefix}ytmp4 ${yut.all[0].url}`, buttonText: {displayText: '🎥 VIDEO 🎥'}, type: 1}
 ],null,null,ya)
-})
              break                
 case 'ytmp3':
         if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
