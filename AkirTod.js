@@ -1576,7 +1576,7 @@ case 'donasi':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
  listMsg = {
  buttonText: '🥺 MAU DONASI KAK 🥺',
- footerText: 'Lord HentongersBot',
+ footerText: 'ZED',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih List Sewabot`,
  sections: [
                      {
@@ -1619,7 +1619,7 @@ case 'play':
              if (args.length < 1) return reply(`Kirim perintah *${prefix}play query*`)
              reply(`[ ⏳ ] HARAP SABAR KAK 😁`)
              let yut = await yts(q)
-             yta(yut.videos[0].url
+             yta(yut.videos[0].
              hxz.youtub(url).then(async(res) => {
              var { thumb, title, filesizeF, filesize } = res
              var capti = `𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗣𝗟𝗔𝗬🍁
