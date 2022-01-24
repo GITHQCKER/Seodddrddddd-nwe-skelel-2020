@@ -1619,15 +1619,15 @@ case 'play':
              if (args.length < 1) return reply(`Kirim perintah *${prefix}play query*`)
              reply(`[ ⏳ ] HARAP SABAR KAK 😁`)
              let yut = await yts(q)
-             yta(yut.videos[0].url)             
-             .then(async(res) => {
+             yta(yut.videos[0].url
+             hxz.youtub(url).then(async(res) => {
              var { thumb, title, filesizeF, filesize } = res
              var capti = `𝗬𝗢𝗨𝗧𝗨𝗕𝗘 𝗣𝗟𝗔𝗬🍁
-•💬 Judul : ${yut.all[0].title}
+•💬 INFO : ${yut.all[0].title}
 •🎥 ID Video : ${yut.all[0].videoId}
 •⏰️ Diupload Pada : ${yut.all[0].ago}
 •👁️️ Views : ${yut.all[0].views}
-•▶️ Durasi : ${yut.all[0].timestamp}
+•▶️ Duration  : ${yut.all[0].timestamp}
 •📍 Channel : ${yut.all[0].author.name}
 •🔗 Link Channel : ${yut.all[0].author.url}
 •⚡ Link Video : ${yut.videos[0].url}`
@@ -1640,25 +1640,25 @@ case 'play':
              break                
 case 'ytmp3':
         if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
-        if (args.length < 1) return reply('🔗 LINK NYA MANA KAK? 🔗')
+        if (args.length < 1) return reply('WRONG LINK')
         if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply('link gk valir')
-        reply("[ ⏳ ] SEDANG MENGDOWNLOAD AUIDO HARAP SABAR 😏")
+        reply("[ ⏳ ] PLEASE WAIT DOWNLOADING...🍃")
         teks = args.join(' ')
         res = await y2mateA(teks)
         sendFileFromUrl(res[0].link, document, {quoted: fakeTroli, mimetype: 'audio/mp3', filename: res[0].output})
         break
 case 'ytmp4':
         if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
-        if (args.length < 1) return reply('🔗 LINK NYA MANA KAK? 🔗')
+        if (args.length < 1) return reply('WRONG LINK')
         if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply('link gk valir')
-        reply("[ ⏳ ] SEDANG MENGDOWNLOAD VIDEO HARAP SABAR 😏")
+        reply("[ ⏳ ] PLEASE WAIT DOWNLOADING...🍃")
         teks = args.join(' ')
         res = await y2mateV(teks)
         sendFileFromUrl(res[0].link, document, {quoted: fakeTroli, mimetype: 'video/mp4', filename: res[0].output})
         break
 case 'tiktokmp4':
  		if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fakeTroli})
- 		if (!q) return replly('Linknya?')
+ 		if (!q) return replly('Link?')
  		if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.Iv)
  		sticWait(from)
 		hx.ttdownloader(`${args[0]}`)
@@ -1727,9 +1727,9 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
                 sticWait(from)
                 hasil = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=KONTOLODON`)
                 but = [
-                { buttonId: `${prefix + command}`, buttonText: { displayText: '➡️ SELANJUTNNYA KAK ➡️ ' }, type: 1 }
+                { buttonId: `${prefix + command}`, buttonText: { displayText: '➡ ➡️ ' }, type: 1 }
                        ]
-                sendButImage(from, '🥳 ℕ𝕚𝕙 𝕜𝕒𝕜 𝕦𝕕𝕒𝕙 𝕛𝕒𝕕𝕚 🥳', `🤖 Hentongers-Botz 🤖`, hasil, but)
+                sendButImage(from, '😂', `©ZED BOT〽`, hasil, but)
                                 
                     break
                     case 'darkjoke':
@@ -1774,9 +1774,9 @@ case 'hentai4everyone':
                 sticWait(from)
                 hasil = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=KONTOLODON`)
                 but = [
-                { buttonId: `${prefix + command}`, buttonText: { displayText: '➡️ SELANJUTNNYA KAK ➡️' }, type: 1 }
+                { buttonId: `${prefix + command}`, buttonText: { displayText: '➡➡️' }, type: 1 }
                        ]
-                sendButImage(from, '🥳 ℕ𝕚𝕙 𝕜𝕒𝕜 𝕦𝕕𝕒𝕙 𝕛𝕒𝕕𝕚 🥳', `🤖 Hentongers-Botz 🤖`, hasil, but)
+                sendButImage(from, '😂', `©ZED BOT〽`, hasil, but)
        
                     break
                     /// halal broter
@@ -1803,12 +1803,12 @@ case 'hentai4everyone':
                 but = [
                 { buttonId: `${prefix + command}`, buttonText: { displayText: '➡️ SELANJUTNNYA KAK ➡️' }, type: 1 }
                        ]
-                sendButImage(from, '🥳 ℕ𝕚𝕙 𝕜𝕒𝕜 𝕦𝕕𝕒𝕙 𝕛𝕒𝕕𝕚 🥳', `🤖 Hentongers-Botz 🤖`, hasil, but)
+                sendButImage(from, '�😂', `©ZED BOT〽`, hasil, but)
        
                     break
                     
 case 'verify':
-if (isRegistered) return reply('```😁 KAKA UDAH DAFTAR 😁```')
+if (isRegistered) return reply('```HE HE UBER VERIFYD BNG😂```')
 var serialUser = createSerial(18)
 	         try {
 								ppimg = await KirBotz.getProfilePicture(`${sender.split('@')[0]}@c.us`)
@@ -1819,24 +1819,24 @@ var serialUser = createSerial(18)
 	        _registered.push(sender)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
-	         var anuu = `「 *🤖 PENDAFTARAN USER BOT 🤖* 」
-*Terimakasih 😁 Sudah Mendaftarkan Diri Dalam Database 🤖 Bot 🤖 WhatsApp*
+	         var anuu = `「 *ZED BOT〽* 」
+*YOU ARE NOW VERIFY*
 
 *✗⃝🌪️ Nama :* ${pushname}
 *✗⃝🌪️ API :* +${sender.split('@')[0]}
 *✗⃝🌪️ Serial:* ${serialUser}
 *✗⃝🌪️ Total:* ${_registered.length} *Pengguna Botz*
 
-*「 🤖 HENTONGERS-BOT 🤖 」*`
+*「 ZED BOT〽 」*`
          kirbotz = await getBuffer(ppimg)
                 but = [
-                { buttonId: `${prefix}menu`, buttonText: { displayText: '🤖 MENU-BOT 🤖' }, type: 1 }
+                { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU〽' }, type: 1 }
                        ]
-                sendButImage(from, `${anuu}`, `❤️ HENTONGERS-BOT ❤️`, kirbotz, but)
+                sendButImage(from, `${anuu}`, `ZED BOT〽`, kirbotz, but)
 	         console.log(color('[REGISTER]'), color(time, 'yellow'), 'Serial:', color(serialUser, 'cyan'), 'in', color(sender || groupName))
             setTimeout( () => {
 			KirBotz.updatePresence(from, Presence.composing)
-			replly(`*🍺 Terimakasih Telah Terdaftar Di HENTONGERS-BOT 🍺*`)
+			replly(`*🍺 ZED IS BEST😂*`)
 		}, 2000)
         break
 case 'bj':
